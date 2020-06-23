@@ -1,0 +1,24 @@
+{
+  "travels": [
+    {
+      "id": 1,
+      "title": "Praia do Una"
+    },
+    {
+      "title": "Porto Seguro",
+      "id": 2
+    },
+    {
+      "title": "teste",
+      "id": 3
+    },
+    {
+      "title": "Maresias",
+      "id": 4
+    },
+    {
+      "title": "Barra Grande",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<div class="row">
+    <div class="col-md-6">
+        <ng-select [items]="items"
+            bindLabel="title"
+            bindValue="id"
+            placeholder="Select country"
+            [(ngModel)]="selectedCountryId"
+            (change)="onChange($event)"></ng-select>
+    </div>
+</div>

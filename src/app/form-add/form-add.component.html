@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col-md-6">
+        {{ form.valid | json }}
+        {{ form.value | json }}
+        <form #form="ngForm" novalidate>
+            <div class="form-group">
+                <travel-input label="type your travel" errorMessage="Campo obrigatório">
+                    <input type="text" class="form-control" #travel name="travel" ngModel minlength="5" required placeholder="e.g Los Angeles Beach" />
+                </travel-input>                
+            </div>
+            <button class="btn btn-outline-info btn-sm" (click)="save(travel.value)">+ Add a new travel</button>
+        </form>
+    </div>
+</div>
+
